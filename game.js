@@ -109,7 +109,7 @@ class Enemy {
         this.type = type;
         this.x = x;
         this.y = y;
-        this.speed = 1 + Math.random() * 2;
+        this.speed = (1 + Math.random() * 2) * 0.5;
         this.health = this.getHealthByType();
         this.maxHealth = this.health;
         this.lastShot = 0;
