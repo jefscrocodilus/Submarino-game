@@ -79,7 +79,7 @@ class Bullet {
         this.y = y;
         this.width = 8;
         this.height = 3;
-        this.speed = 7 * direction;
+        this.speed = 3.5 * direction;
         this.direction = direction;
     }
     
