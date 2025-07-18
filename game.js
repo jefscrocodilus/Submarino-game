@@ -522,7 +522,7 @@ function gameLoop() {
         checkCollisions();
         
         // Spawn inimigos
-        if (Math.random() < 0.02 + (gameLevel * 0.005)) {
+        if (Math.random() < 0.01 + (gameLevel * 0.0025)) {
             spawnEnemy();
         }
         
